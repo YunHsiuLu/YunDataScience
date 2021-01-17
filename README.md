@@ -15,7 +15,7 @@ install and import NumPy
 `np.__version__`
 
 be careful that there are double '_' prefix and post of version
-
+******
 if you don't want to download anaconda and do have python3:
 
 `python3 -m pip install jupyter`
