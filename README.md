@@ -1,4 +1,4 @@
-# YunDataScience
+# Python Data Science
 
 D01: NumPy basic exercise
 install and import NumPy
