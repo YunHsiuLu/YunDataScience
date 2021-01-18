@@ -14,23 +14,22 @@
 	*	reshape(): reshape array A1 into another array A2, request that number of elements in A1 equals to number of elements in A2. order='F' means reshape by row; order='C' means reshape by column.<br>
 	ex.
 	```
-	     [ 1 2 ]                                   [ 1 2 3 ]
-	A1 = [ 3 4 ], reshape A1 into 2*3 matrix, A2 = 
-	     [ 5 6 ]                                   [ 4 5 6 ]
-	```
-
-	```
+	     [ 1 2 ]
+	A1 = [ 3 4 ], reshape A1 into 2*3 matrix
+	     [ 5 6 ]
 	>>> A1 = np.array([[1, 2], [3, 4], [5, 6]])
 	>>> A1.reshape((2,3))
 	array([[1, 2, 3],
-		   [4, 5, 6]])
+           [4, 5, 6]])
+    ```
+    reshape A1 by row or by column.
+    ```
     >>> A1.reshape((2,3), order='F')
     array([[1,5,4],
            [3,2,6]])
     >>> A1.reshape((2,3), order='C')
     array([1,2,3[],
            [4,5,6]])
-
 	```
 	*	resize(): reshape array A1 into another array A2, if the number of elements in A1 differs to number of element in A2, insert 0 at the end.<br>
 	ex. 
