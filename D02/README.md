@@ -1,7 +1,6 @@
 # D02: Advanced Array Exercise
 *	array reshape:
-	*	flatten(), ravel(): multi-dimension to 1-D.
-
+	*	flatten(), ravel(): multi-dimension to 1-D.<br>
 	ex.
 	```
 	>>> a1 = np.array([[1,2,3],[4,5,6]])
@@ -12,8 +11,7 @@
 	>>> a_ravel
 	array([1,2,3,4,5,6])
 	```
-	*	reshape(): reshape array A1 into another array A2, request that number of elements in A1 equals to number of elements in A2.
-
+	*	reshape(): reshape array A1 into another array A2, request that number of elements in A1 equals to number of elements in A2.<br>
 	ex.
 	```
 	     [ 1 2 ]                                   [ 1 2 3 ]
@@ -28,8 +26,7 @@
 	array([[1, 2, 3],
 		   [4, 5, 6]])
 	```
-	*	resize(): reshape array A1 into another array A2, if the number of elements in A1 differs to number of element in A2, insert 0 at the end.
-
+	*	resize(): reshape array A1 into another array A2, if the number of elements in A1 differs to number of element in A2, insert 0 at the end.<br>
 	ex. 
 	```
 	     [ 1 2 ]                                   [ 1 2 ]
@@ -76,7 +73,6 @@
 		>>> np.concatenate((A1, A2), axis=None)
 		array([1, 2, 3, 4, 5, 6])
 		```
-
 		*	stack(), hstack(), vstack(): stack() will return the array but dimension plus 1; hstack and vstack are horizontal stack and vertical stack.<br>
 		ex.
 		```
@@ -95,7 +91,6 @@
 		array([[1,2,3],
 			   [4,5,6]])
 		```
-
 	*	Split:
 		* split(), hsplit(), vsplit(): split() can split certain elements at assigned axis; hsplit() and vsplit() are horizontal split and vertical split. All of them will return the split result in a list, and the dimension won't be change.<br>
 		ex.
@@ -118,3 +113,64 @@
 		```
 *	array iteration:
 *	array searching and sorting:
+	*	amax(), amin(), max(), min(): amax() and max() are same function but in different library, amin() and min() respectively.<br>
+	ex.
+	```
+	        numpy object                         ndarray object
+	np.amax(array, axis=None, keepdims=)  ndarray.max(axis=None, keepdims)
+	np.amin(array, axis=None, keepdims=)  ndarray.min(axis=None, keepdims)
+	```
+	*	argmax(), argmin(): they do return the index which is max or min in array.<br>
+	ex.
+	```
+	      numpy object                ndarray object
+	np.argmax(array, axis=None)  ndarray.argmax(axis=None)
+	np.argmin(array, axis=None)  ndarray.argmin(axis=None)
+	```
+	*	where(condition): return the **index** that is agreed with the condition.<br>
+	```
+	>>> A1 = np.arange(10)
+	>>> A1
+	array([0,1,2,3,4,5,6,7,8,9])
+	>>> np.where(A1 < 5)
+	array([0,1,2,3,4])
+	```
+	*	where(condition, x, y): return the elements that is agreed with the condition. x is the value if condtion is true; y is opposite.<br>
+	ex.
+	```
+	>>> np.where(A1 < 5, A1, A1*10)
+	array([0,1,2,3,4,50,60,70,80,90])
+	```
+	*	nonzero(): equals to np.where(array != 0)<br>
+	ex.
+	```
+	>>> A1 = np.array([0,1,0,0,1,0,1,0])
+	>>> np.nonzero(A1)
+	array([1,4,6])
+	```
+	*	sort(array, axis=-1, kind=None), argsort(array, axis=-1, kind=None): return the sorted list or index of sorted list, from small to large elements.<br>
+	ex.
+	```
+	>>> A1 = np.array([[1,4],[3,1]])
+	>>> np.sort(A1)
+	array([[1,4],
+	       [1,3]])
+	>>> np.sort(A1, axis=None)
+	array([1,1,3,4])
+	>>> np.sort(A1, axis=0)
+	array([[1,1],
+	       [3,4]])
+	>>> np.argsort(A1)
+	array([[0,1],[1,0]])
+	```
+	Also, we can choose the different sorted algorithm, there are quick sort (default), merge sort, timesort, heapsort, etc. By the algorithm timing count, the quick sort is the quickest sorting algorithm. We can change the algorithm at kind.<br>
+	ex.
+	```
+	>>> np.sort(A1, axis=-1, kind='quicksort')
+	array([[1,4],
+	       [1,3]])
+	```
+
+
+
+
