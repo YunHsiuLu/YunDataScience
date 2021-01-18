@@ -28,7 +28,7 @@
     array([[1,5,4],
            [3,2,6]])
     >>> A1.reshape((2,3), order='C')
-    array([1,2,3[],
+    array([[1,2,3],
            [4,5,6]])
 	```
 	*	resize(): reshape array A1 into another array A2, if the number of elements in A1 differs to number of element in A2, insert 0 at the end.<br>
