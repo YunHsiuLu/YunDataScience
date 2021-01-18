@@ -34,12 +34,28 @@ then you can open jupyter notebook with webviewer at folder:
 	*	flatten(), ravel(): multi-dimension to 1-D, but ravel() is based on original array.
 	*	reshape(): reshape array A1 into another array A2, request that number of elements in A1 equals to number of elements in A2.
 	```
-	     [ 1 2 ]                                   [ 1 2 3]
+	     [ 1 2 ]                                   [ 1 2 3 ]
 	A1 = [ 3 4 ], reshape A1 into 2*3 matrix, A2 = 
-	     [ 5 6 ]                                   [ 4 5 6]
+	     [ 5 6 ]                                   [ 4 5 6 ]
 	```
 	*	resize(): reshape array A1 into another array A2, if the number of elements in A1 differs to number of element in A2, insert 0 at the end.
-*	axis and dimension
-*	array merging and array splitting
-*	array iteration
-*	array searching and sorting
+	```
+	     [ 1 2 ]                                   [ 1 2 3 ]
+	A1 = [ 3 4 ], resize A1 into 3*3 matrix, A2 =  [ 4 5 6 ]
+	     [ 5 6 ]                                   [ 0 0 0 ]
+	```
+*	axis and dimension:
+	```
+	1D:            2D:               3D:
+	  axis 0              1                         2
+	--------->      | -------->                ----------->
+	[ 1,2,3 ]       | [[ 1,2,3 ],     | 1 | [[[ 111,112,113 ],
+	              0 |  [ 4,5,6 ],     |   v   [ 121,122,123 ]],
+	                v  [ 7,8,9 ]]     |      [[ 211,212,213 ],
+	                                0 |       [ 221,222,223 ]],
+	                                  |      [[ 311,312,313 ],
+	                                  v       [ 321,322,323 ]]]
+	```
+*	array merging and array splitting:
+*	array iteration:
+*	array searching and sorting:
