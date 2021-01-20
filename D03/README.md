@@ -3,7 +3,7 @@
 *	NumPy calculation: (+, -, *, /)
 ```
 a + b    np.add(a, b)          addition
-a - b    np.substract(a, b)    substract
+a - b    np.subtract(a, b)     subtract
 a * b    np.multiply(a, b)     multiply
 a / b    np.divide(a, b)       division
 a % b    np.mod(a, b)          module
