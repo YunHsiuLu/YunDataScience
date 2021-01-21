@@ -26,7 +26,7 @@
 	True
 	```
 *	Logic operations: logical_and(), logical_or(), logical_not(), logical_xor().
-	*	They can only compare "two" list of boolin value.
+	*	They can only compare "two" list of boolean value.
 *	Truth value testing:
 	*	all(): check whether there is "not" 0 or "False" in an array, if yes, return True; otherwise False.
 	*	any(): check whether there is "any" value or "True" in an array, if yes, return True; otherwise False.
