@@ -40,7 +40,7 @@
 *	Correlation
 	Links below can give more details of mathmetics.
 	*	np.corrcoef(): [More corrcoef details!!!](https://numpy.org/doc/stable/reference/generated/numpy.corrcoef.html)
-	*	np.corrlate(): [More corrcoef details!!!](https://numpy.org/doc/stable/reference/generated/numpy.corrcoef.html)
+	*	np.corrlate(): [More corrcoef details!!!](https://numpy.org/doc/stable/reference/generated/numpy.correlate.html)
 	*	np.cov(): [More corrcoef details!!!](https://numpy.org/doc/stable/reference/generated/numpy.cov.html)
 *	Histogram
 	*	Using arrays to represent the histogram informations. np.histogram() returns histogram value and bin edge.
