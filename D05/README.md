@@ -47,7 +47,7 @@
 	```
 	>>> a = np.array([0,0,1,0,1,1,0,1,0,0,1,0,0,0,0,1,1,1])
 	>>> np.histogram(a, bins=[-0.5, 0.5, 1.5])
-	array([10, 8]), array([-0.5, 0.5, 1.5])
+	array([10, 8]), array([0,1,2])
 	```
 	it will look like:
 	![plot](Figure_1.png)
