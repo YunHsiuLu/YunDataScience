@@ -16,7 +16,7 @@
 	```
 	>>> np.genfromtxt('test.csv', delimiter=',')
 	array([[0., 1., 2., 3., 4.],
-        [5., 6., 7., 8., 9.]])
+           [5., 6., 7., 8., 9.]])
 	```
 	* * *
 	delimiter can also receive a integer, means that read in fix length string.<br>
@@ -26,8 +26,8 @@
 	>>> data = u'  1  2  3\n  4  5 67\n890123  4'
 	>>> np.genfromtxt(StringIO(data), delimiter=3)
 	array([[  1.,   2.,   3.,
-		[  4.,   5.,  67.],
-	    [890., 123.,   4.])
+           [  4.,   5.,  67.],
+	       [890., 123.,   4.])
 	```
 	* * *
 	if autostrip set True, it can automatically delete space when reading file.<br>
@@ -36,7 +36,7 @@
 	>>> data = u'1, 2 , 4\n 4, 5, 6'
 	>>> np.genfromtxt(StringIO(data), delimiter=',', atuostrip=True)
 	array([[1., 2., 4.],
-		[4., 5., 6.]])
+           [4., 5., 6.]])
 	```
 	* * *
 	same as loadtxt(), they can ignore the comment line, or header/footer when reading files. We can set what header comment line is.<br>
