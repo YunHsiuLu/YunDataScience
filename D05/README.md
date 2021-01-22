@@ -50,4 +50,4 @@
 	array([10, 8]), array([-0.5, 0.5, 1.5])
 	```
 	it will look like:
-	![plot](Figure1.png)
+	![plot](Figure_1.png)
