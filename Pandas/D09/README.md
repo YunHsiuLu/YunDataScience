@@ -6,7 +6,7 @@
 	>>> iris_data
 	```
 
-	|     | sepal length | sepal width | petal length | petal width | target |
+	| index | sepal length | sepal width | petal length | petal width | target |
 	| *-* | *----------* | *---------* | *----------* | *---------* | *----* |
 	| 0 | 5.1 | 3.5 | 1.4 | 0.2 | 0 |
 	| 1 | 4.9 | 3.0 | 1.4 | 0.2 | 0 |
@@ -20,7 +20,7 @@
 	>>> iris_data
 	```
 
-	|     | petal length | petal width | target |
+	| index | petal length | petal width | target |
 	| *-* | *----------* | *---------* | *----* |
 	| 0 | 1.4 | 0.2 | 0 |
 	| 1 | 1.4 | 0.2 | 0 |
