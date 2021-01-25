@@ -63,6 +63,7 @@ There are several linear algebra functions for matrix mathmetics, you can get mo
            [1, 1, 1, 1]])
 	```
 	*	Upper triangular, Lower Triangular Matrix: np.triu(M), np.tril(M). As title.
+* * *
 *	Matrix Decomposition:
 	*	Cholesky Decomposition: np.linalg.cholesky(M). Requires M is positive definite.<br>
 	ex.
