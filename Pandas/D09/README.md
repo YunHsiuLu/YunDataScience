@@ -61,7 +61,21 @@
 	*	.to_json()
 
 *	read & write SQL data base:
-	
+	*	.to_sql(): here shows how to write data base in SQL:<br>
+	```
+	>>> import sqlite3
+	>>> boston_data = pd.read_excel('data.xls', sheet_name='boston',
+									header=0, usecols=['TAX', 'PTRATIO', 'B', 'LSTAT'])
+	>>> connection = sqlite3.connect('sql_db.sqlite')
+	>>> boston_data.to_sql('boston', connection, if_exists='replace')
+	>>> connection.commit()
+	>>> connection.close()
+	```
+	the example shows that it reads sheet 'boston' in excel file 'data.xls' first, then connect to sqlite3 database. if_exist will check if there exists the data base named 'boston'.
+	*	pd.io.sql.read_sql(): this is how to read from SQLite3 data base.
+	here are two link for SQLite3 read & write:
+	[.to_sql](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_sql.html)
+	[read_sql()](https://sodocumentation.net/zh-tw/pandas/topic/2176/將sql-server讀取到dataframe)
 
 
 
