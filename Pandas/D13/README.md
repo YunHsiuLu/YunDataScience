@@ -37,9 +37,7 @@ we can also change the axis to get the row mean value. For example, count every 
 *	apply(): it is very special function rather than numpy statistics, we can self-defined function by `df.apply()` to analyze the data as you want.<br>
 ex.
 `df.apply(lambda x: x**0.5*10)` means 
-```math
-f(x) = 10*\sqrt{x}
-```
+- <img src="https://latex.codecogs.com/gif.latex?f(x)=10*\sqrt{x}" /> 
 
 also we have pipe(), applymap() to self-defined function in dataframe [check more](https://data-flair.training/blogs/pandas-function-applications/).
 
