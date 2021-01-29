@@ -5,3 +5,4 @@ pandas, openpyxl, sqlite3, sklearn<br>
 **D10: Pandas Data Index Operation**<br>
 **D11: Pandas Classification and Missing Value**<br>
 **D12: Pandas Common Chart Design**
+**D13: Pandas Statistical Function**
