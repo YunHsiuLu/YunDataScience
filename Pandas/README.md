@@ -7,3 +7,5 @@ pandas, openpyxl, sqlite3, sklearn<br>
 **D12: Pandas Common Chart Design**<br>
 **D13: Pandas Statistical Function**<br>
 **D14: Pandas Write Pivot Analysis Form**<br>
+**D15: Pandas Split-Apply-Combine Strategy**<br>
+
