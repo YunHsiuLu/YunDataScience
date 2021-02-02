@@ -1,8 +1,8 @@
 # D17: Pandas Efficiency Optimize
 
 After know pandas and know how to deal with many kinds of data form, we ask for high effciency. There are three way for optimizing the executed time:<br>
-	a. read and write file
-	b. use built in functions
+	a. read and write file<br>
+	b. use built in functions<br>
 	c. deal with vector data
 
 * * *
