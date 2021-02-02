@@ -8,4 +8,4 @@ pandas, openpyxl, sqlite3, sklearn<br>
 **D13: Pandas Statistical Function**<br>
 **D14: Pandas Write Pivot Analysis Form**<br>
 **D15: Pandas Split-Apply-Combine Strategy**<br>
-
+**D16: Pandas Time Order**<br>
