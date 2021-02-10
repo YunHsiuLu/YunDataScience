@@ -12,4 +12,4 @@ plt.xticks([]), plt.yticks([])
 plt.text(0.5,0.5, 'axes([0.2,0.2,.3,.3])',ha='center',va='center',size=16,alpha=.5)
 
 #plt.show()
-f.savefig('figure1.pdf')
+f.savefig('figure1.png')

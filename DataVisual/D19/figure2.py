@@ -14,4 +14,4 @@ x = np.linspace(0, 1, 100) # linspace創建等差陣列
 y = np.cos(x * 2 * np.pi) / 2 + 0.5
 # 通過zdir = 'z' 將資料繪製在z軸，zs = 0.5 則是將資料繪製在z = 0.5的地方
 ax.plot(x, y, zs = 0.5, zdir = 'z', color = 'black', label = 'curve in (x, y)')
-fig.savefig('figure2.pdf')
+fig.savefig('figure2.png')
