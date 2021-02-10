@@ -18,7 +18,7 @@ plt.text(0.5,0.5, 'axes([0.2,0.2,.3,.3])',ha='center',va='center',size=16,alpha=
 
 plt.show()
 ```
-![plot](figure1.pdf)
+![plot](figure1.png)
 
 *	3D plot: 
 ```
@@ -40,5 +40,5 @@ y = np.cos(x * 2 * np.pi) / 2 + 0.5
 # 通過zdir = 'z' 將資料繪製在z軸，zs = 0.5 則是將資料繪製在z = 0.5的地方
 ax.plot(x, y, zs = 0.5, zdir = 'z', color = 'black', label = 'curve in (x, y)')
 ```
-![plot](figure2.pdf)
+![plot](figure2.png)
 
