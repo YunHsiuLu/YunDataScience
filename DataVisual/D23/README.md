@@ -15,7 +15,7 @@
 	*	then you can check what packages you have by: `pip list`
 
 *	in this chapter, we have to install many packages: numpy, Jinja2, six, requests, tornado, pyyaml, python-dateutil, pandas, bokeh, panel, matplotlib, you can copy below:<br>
-`python -m pip install numpy matplotlib pandas bokeh Jinja2 siz requests tornado pyyaml python-dateutil panel`<br>
+`python -m pip install numpy matplotlib pandas bokeh Jinja2 six requests tornado pyyaml python-dateutil panel`<br>
 
 *	bokeh in Jupyter notebook can output html file in default. If you want to change the output file, you can do this: `bokeh.io.reset_output()` then change the function: `output_notebook()`, `output_file()`, or others.
 
