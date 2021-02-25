@@ -31,3 +31,6 @@ Notes are in every folders.<br>
 **D23: Bokeh - Charting with webviewer**<br>
 **D24: Basemap - Geography charting**<br>
 **D25: Using Pandas and Basemap**<br>
+* * *
+[Statistics](https://github.com/YunHsiuLu/YunDataScience/tree/main/Statistics)<br>
+**D26: Describe Data by Statistics**<br>
