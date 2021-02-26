@@ -1,4 +1,4 @@
-# D28: Describe the world by possibility distribution - discrete allocation(2)
+# D28: Describe the world by possibility distribution - discrete distribution(2)
 
 # Negative Binomial Distribution(NB)
 we have binomial distribution(B) last lecture, and there is negative binomial distribution(NB), meaning that the distribution of fail times when a set of Bernoulli experiments achieve success times.<br>

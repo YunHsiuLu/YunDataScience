@@ -1,4 +1,4 @@
-# D27: Describe the world by possibility distribution - discrete allocation
+# D27: Describe the world by possibility distribution - discrete distribution
 
 *	We have many possibility situation in our daily life, but how to describe them but some mathmetical expression? There are some discrete distribution:<br>
 	(1) Discrete Uniform Distribution<br>
