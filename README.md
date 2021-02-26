@@ -34,3 +34,21 @@ Notes are in every folders.<br>
 * * *
 [Statistics](https://github.com/YunHsiuLu/YunDataScience/tree/main/Statistics)<br>
 **D26: Describe Data by Statistics**<br>
+**D27: Describe the world by possibility distribution - discrete distribution**<br>
+**D28: Describe the world by possibility distribution - discrete distribution(2)**<br>
+**D29: Describe the world by possibility distribution - continuous distribution**<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
