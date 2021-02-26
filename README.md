@@ -39,6 +39,7 @@ Notes are in every folders.<br>
 **D29: Describe the world by possibility distribution - continuous distribution**<br>
 **D30: Baye's theorem**<br>
 **D31: A/B assumption**<br>
+**D32: A/B assumption - advanced**<br>
 
 
 
