@@ -4,7 +4,7 @@ when we check the sample with A or B result, we can assume H_0 by H_1 in several
 
 * * *
 # Chi-Square distribution
-<img src="http://latex.codecogs.com/svg.latex?X~\chi^2(k)" />
+<img src="http://latex.codecogs.com/svg.latex?X&space;~&space;\chi^2(k)" />
 , where k is degree of freedom
 it compares the difference of experiment results and expect results, if it has large difference, <img src="http://latex.codecogs.com/svg.latex?\chi^2(k)" /> would be large.<br>
 it has a simple form: <img src="http://latex.codecogs.com/svg.latex?\chi^2(k)=\sum_{k}^{i=1}\frac{(A_i-np_i)^2}{np_i}" /><br>
