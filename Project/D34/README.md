@@ -26,8 +26,8 @@ There are three orientations: Field, Analysis, Implementation<br>
 
 * * *
 # Data Science - Implementation:
-	![plot](implementation_fig.png)<br>
-	
+	![text](https://github.com/YunHsiuLu/YunDataScience/blob/main/Project/D34/implementation_fig.png)
+
 
 
 
