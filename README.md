@@ -41,6 +41,10 @@ Notes are in every folders.<br>
 **D31: A/B test**<br>
 **D32: A/B test - advanced**<br>
 **D33: A/B test - execute process and calculation**<br>
+* * *
+[Project](https://github.com/YunHsiuLu/YunDataScience/tree/main/Project)<br>
+**D34: Introduce Data Science and the Role of EDA**<br>
+
 
 
 
