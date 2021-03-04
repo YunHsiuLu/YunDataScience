@@ -28,7 +28,9 @@ There are four types of analysis: description, diagnosis, prediction, recommanda
 # Data Science - Implementation:
 ![plot](implementation_fig.png)
 
-
+* * *
+# What is EDA?
+Exploratory Data Analysis, EDA for short, is mentioned by *Tukey*, mainly concept is using described statistics, graphic statistics, and data visualization to know the information of the data base, and do some analysis.
 
 
 
