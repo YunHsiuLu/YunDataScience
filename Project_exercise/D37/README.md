@@ -20,14 +20,16 @@ because KNN is using majority decision, so it's better to choose odd "k".<br>
 2. find the nearest k values<br>
 3. majority decision with those data<br>
 (here ignore the coding part, you can check in exercise)<br>
+
 * * *
-when we repair the missing value, we can just use the nearest data to repair the missing one, but in some situation, like boys' and girls' height, we can't use boys' height to estimate girls' height, so maybe we should choose the other arguments to correct this error.
+when we repair the missing value, we can just use the nearest data to repair the missing one<br>
+but in some situation, like boys' and girls' height, we can't use boys' height to estimate girls' height<br>
+so maybe we should choose the other arguments to correct this error.<br>
 
-
-
-
-
-
+* * *
+# How do we check repair value is good or not?
+we can use mean square error (MSE) to check whether the repair value is good.<br>
+Small MSE means high accuracy.<br>
 
 
 
