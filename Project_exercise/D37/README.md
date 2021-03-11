@@ -11,7 +11,7 @@ because KNN is using majority decision, so it's better to choose odd "k".<br>
 # KNN three steps
 1. calculate the distance<br>
 	there are two definitions of distance:<br>
-		with two point <img src="http://latex.codecogs.com/svg.latex?A=(x_1,&space;...,&space;x_n)&space;and&space;B=(y_1,&space;...,&space;y_n)" />
+		with two point <img src="http://latex.codecogs.com/svg.latex?A=(x_1,&space;...,&space;x_n)&space;and&space;B=(y_1,&space;...,&space;y_n)" /><br>
 		- Euclidean distance:<br>
 			<img src="http://latex.codecogs.com/svg.latex?D=\sqrt{\sum_{i=1}^n(x_i-y_i)}" /><br>
 		- Manhattan distance:<br>
