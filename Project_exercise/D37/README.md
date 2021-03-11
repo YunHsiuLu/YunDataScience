@@ -13,9 +13,9 @@ because KNN is using majority decision, so it's better to choose odd "k".<br>
 	there are two definitions of distance:<br>
 		with two point <img src="http://latex.codecogs.com/svg.latex?A=(x_1, ..., x_n)" /> and <img src="http://latex.codecogs.com/svg.latex?B=(y_1, ..., y_n)" /><br>
 		- Euclidean distance:<br>
-			<img src="http://latex.codecogs.com/svg.latex?D=\sqrt{\sum^n_{i=1}(x_i-y_i)}" /><br>
+			<img src="http://latex.codecogs.com/svg.latex?D=\sqrt{\sum_{i=1}^n(x_i-y_i)}" /><br>
 		- Manhattan distance:<br>
-			<img src="http://latex.codecogs.com/svg.latex?D=\sum^n_{i=1}|x_i-y_i|" /><br>
+			<img src="http://latex.codecogs.com/svg.latex?D=\sum_{i=1}^n|x_i-y_i|" /><br>
 	we use Euclidean distance in this lecture.<br>
 2. find the nearest k values<br>
 3. majority decision with those data<br>
