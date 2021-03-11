@@ -16,9 +16,12 @@ because KNN is using majority decision, so it's better to choose odd "k".<br>
 			<img src="http://latex.codecogs.com/svg.latex?D=\sqrt{\sum_{i=1}^n(x_i-y_i)}" /><br>
 		- Manhattan distance:<br>
 			<img src="http://latex.codecogs.com/svg.latex?D=\sum_{i=1}^n|x_i-y_i|" /><br>
-	we use Euclidean distance in this lecture.<br>
+	we use Euclidean distance in sklearn package in this lecture.<br>
 2. find the nearest k values<br>
 3. majority decision with those data<br>
+(here ignore the coding part, you can check in exercise)<br>
+* * *
+when we repair the missing value, we can just use the nearest data to repair the missing one, but in some situation, like boys' and girls' height, we can't use boys' height to estimate girls' height, so maybe we should choose the other arguments to correct this error.
 
 
 
