@@ -12,7 +12,7 @@ Between different variables, there are some relationship:
 * * *
 
 # continuous v.s. continuous: Pearson correlation
-<img src="http://latex.codecogs.com/svg.latex?r=\frac{\sum_{i=1}^n (X_i-\bar{X})(Y_i-\bar{Y})}{\sqrt{\sum_{i=0}^n (X_i-\bar{X})^2 \sum_{i=0}^n (Y_i-\bar{Y})^2}}" /><br>
+<img src="http://latex.codecogs.com/svg.latex?r=\frac{\sum_{i=1}^n&space;(X_i-\bar{X})(Y_i-\bar{Y})}{\sqrt{\sum_{i=0}^n&space;(X_i-\bar{X})^2&space;\sum_{i=0}^n&space;(Y_i-\bar{Y})^2}}" /><br>
 
 pearson correlation is between -1 and 1.<br>
 ![plot](fig1.png)<br>
@@ -26,7 +26,7 @@ print(corr)
 * * *
 
 # discrete v.s. discrete: Cramer's V parameter
-<img src="http://latex.codecogs.com/svg.latex?V=\sqrt{\frac{\chi^2/n}{(min(r,c)-1}}" /><br>
+<img src="http://latex.codecogs.com/svg.latex?V=\sqrt{\frac{\chi^2/n}{min(r,c)-1}}" /><br>
 , where r is rows of contingency table, c is columns of contingency table, n is total number of data, chi-square is derived from Pearson's chi-squared test.<br>
 # Use researchpy.crosstab to Calculate Correlation
 step 1: we need to first create the cross table(contingency table).<br>
